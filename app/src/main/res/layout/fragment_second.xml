@@ -16,17 +16,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/etFirstName2"
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
 
-    <EditText
+    <TextView
         android:id="@+id/etEmail2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="68dp"
         android:background="@color/white"
         android:ems="10"
+        android:paddingLeft="12dp"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
         android:textAlignment="viewStart"
@@ -36,13 +37,14 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/etFirstName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="196dp"
         android:background="@color/white"
         android:ems="10"
+        android:paddingLeft="12dp"
         android:hint="First name"
         android:inputType="textPersonName"
         android:textAlignment="viewStart"
@@ -52,7 +54,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/etTLastName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,6 +62,7 @@
         android:ems="10"
         android:hint="Last name"
         android:inputType="textPersonName"
+        android:paddingLeft="12dp"
         android:textAlignment="viewStart"
         android:textColorHint="@color/purple_500"
         app:layout_constraintBottom_toTopOf="@+id/etEmail2"
@@ -73,7 +76,7 @@
         android:id="@+id/tvInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Your detais"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
